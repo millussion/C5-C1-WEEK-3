@@ -12,7 +12,6 @@ def add_product(storage):
     
     storage.append(product)
     print(f"Product {name} added correctly.")
-    return name, price, amount
 
 def show_storage(storage):
 
