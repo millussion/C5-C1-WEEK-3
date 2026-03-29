@@ -70,7 +70,7 @@ def delete_product(storage):
     storage.remove(product) #.remove is a metod or a built-in function used to remove a value from a list, that's why I use "product" because what I searched in the function and stored in the variable "product" is what I'm going to remove.
     print(f"Product deleted from the storage.")
     return product
-
+#lambda is an expression 
 subtotal = lambda product: product["price"] * product["amount"] #lambda It's a way to create functions in one line and short, that's why I use it to calculate the subtotal, it receives the dictionary and from there takes the price and amount to multiply them.
 
 def calculate_stats(storage):
